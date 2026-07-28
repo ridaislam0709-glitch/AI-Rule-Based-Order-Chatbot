@@ -108,6 +108,11 @@ Future Improvements
 - Admin Dashboard
 - Order Update & Tracking Features
 
+ Project Demo
+
+A demo video of the project is available on LinkedIn.
+
+🔗 LinkedIn: https://www.linkedin.com/posts/rida-islam-23250b331_python-flask-artificialintelligence-ugcPost-7487861370516836352-oa36/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFOMF4YB7BcB-f0fs0PPw6TM3W8xs9ZO5fw
 
 Author
 "Rida Islam Shabbir"
