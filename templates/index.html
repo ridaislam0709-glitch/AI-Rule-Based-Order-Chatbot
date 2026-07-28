@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AI Rule Based Chatbot Project 1</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- Google Font -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ===================================================== -->
+<!-- HEADER -->
+<!-- ===================================================== -->
+
+<header>
+
+<div class="logo">
+
+<i class="fa-solid fa-robot"></i>
+
+<div>
+
+<h2>AI Rule Based Chatbot Project 1</h2>
+
+<p>Order Management Assistant</p>
+
+</div>
+
+</div>
+
+<div class="status">
+
+<span class="dot"></span>
+
+<span>Online</span>
+
+</div>
+
+</header>
+
+
+
+<!-- ===================================================== -->
+<!-- MAIN -->
+<!-- ===================================================== -->
+
+<div class="container">
+
+
+
+
+<!-- ===================================================== -->
+<!-- SIDEBAR -->
+<!-- ===================================================== -->
+
+<aside class="sidebar">
+
+<h3>
+
+<i class="fa-solid fa-circle-info"></i>
+
+Instructions
+
+</h3>
+
+<ul>
+
+<li>Search by Order ID</li>
+
+<li>Search by Customer ID</li>
+
+<li>Search by Product Name</li>
+
+<li>Type HELP for commands</li>
+
+<li>Type BYE to end chat</li>
+
+</ul>
+
+
+<hr>
+
+
+<h3>
+
+<i class="fa-solid fa-lightbulb"></i>
+
+Examples
+
+</h3>
+
+
+<button class="example-btn">
+
+ORD200001
+
+</button>
+
+<button class="example-btn">
+
+C72649
+
+</button>
+
+<button class="example-btn">
+
+Laptop
+
+</button>
+
+<button class="example-btn">
+
+HELP
+
+</button>
+
+<button class="example-btn">
+
+HELLO
+
+</button>
+
+
+<hr>
+
+
+<h3>
+
+<i class="fa-solid fa-database"></i>
+
+Dataset
+
+</h3>
+
+<p>
+
+Orders Dataset
+
+<br>
+
+1201 Records
+
+<br>
+
+Excel Integrated
+
+</p>
+
+</aside>
+
+
+
+
+<!-- ===================================================== -->
+<!-- CHAT SECTION -->
+<!-- ===================================================== -->
+
+<section class="chat-section">
+
+
+<!-- CHAT HEADER -->
+
+<div class="chat-header">
+
+<h2>
+
+<i class="fa-solid fa-comments"></i>
+
+Chat
+
+</h2>
+
+<div>
+
+<button id="restartBtn">
+
+<i class="fa-solid fa-rotate"></i>
+
+Restart
+
+</button>
+
+<button id="clearBtn">
+
+<i class="fa-solid fa-trash"></i>
+
+Clear
+
+</button>
+
+</div>
+
+</div>
+
+
+
+<!-- CHAT BOX -->
+
+<div id="chatBox">
+
+
+
+<div class="bot-message">
+
+<div class="bot-icon">
+
+<i class="fa-solid fa-robot"></i>
+
+</div>
+
+
+<div class="message">
+
+<h4>
+
+AI Assistant
+
+</h4>
+
+<p>
+
+👋 Hello!
+
+<br><br>
+
+Welcome to
+
+<b>
+
+AI Rule Based Chatbot Project 1
+
+</b>
+
+<br><br>
+
+I can search your Excel Dataset.
+
+<br><br>
+
+You can search using
+
+<br><br>
+
+✅ Order ID
+
+<br>
+
+✅ Customer ID
+
+<br>
+
+✅ Product Name
+
+<br><br>
+
+Type
+
+<b>
+
+HELP
+
+</b>
+
+to begin.
+
+</p>
+
+</div>
+
+</div>
+
+
+</div>
+
+
+
+
+<!-- Typing Animation -->
+
+<div id="typing">
+
+<span></span>
+
+<span></span>
+
+<span></span>
+
+</div>
+
+
+
+
+<!-- INPUT -->
+
+<div class="input-area">
+
+<input
+
+type="text"
+
+id="userInput"
+
+placeholder="Enter Order ID, Customer ID or Product Name...">
+
+<button id="sendBtn">
+
+<i class="fa-solid fa-paper-plane"></i>
+
+</button>
+
+</div>
+
+</section>
+
+</div>
+
+
+
+
+<!-- ===================================================== -->
+<!-- FOOTER -->
+<!-- ===================================================== -->
+
+<footer>
+
+<p>
+
+© 2026
+
+AI Rule Based Chatbot Project 1
+
+<br>
+
+Developed using
+
+Python • Flask • HTML • CSS • JavaScript
+
+</p>
+
+</footer>
+
+
+
+<!-- ===================================================== -->
+<!-- JAVASCRIPT -->
+<!-- ===================================================== -->
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
