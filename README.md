@@ -72,10 +72,31 @@ python app.py
 Project Screenshots
 
 
-- Home Page
-- Product Search
-- Invalid Search
-- Goodbye Message
+> Home Page
+
+The home page provides a clean and interactive chat interface where users can enter their queries and search order information.
+
+![Home Page](screenshots/home.png)
+
+
+> Product Search
+
+The chatbot successfully retrieves product details including price, quantity, payment method, tracking information, and order status.
+
+![Product Search](screenshots/product-search.png)
+
+
+> Invalid Search
+
+When a user enters an invalid keyword or unavailable record, the chatbot displays an appropriate "No Record Found" message.
+
+![Invalid Search](screenshots/invalid-search.png)
+
+> Goodbye Response
+
+When the user types "bye", the chatbot ends the conversation with a friendly goodbye message.
+
+![Goodbye](screenshots/Goodbye.png)
 
 
 Future Improvements
