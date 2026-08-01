@@ -1,4 +1,4 @@
-AI Rule-Based Order Chatbot
+DecodelabTask_AI Rule-Based Order Chatbot Project 1
 
 A web-based "Rule-Based Order Chatbot" developed using ""Python, Flask, Pandas, HTML, CSS, and JavaScript". 
 The chatbot allows users to search order information from an Excel dataset using Order ID, Customer ID, or Product Name through a simple and interactive chat interface.
@@ -23,7 +23,7 @@ The chatbot allows users to search order information from an Excel dataset using
 - Flask
 - Pandas
 - HTML5
-- CSS3
+- CSS
 - JavaScript
 - Excel
 
